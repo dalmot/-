@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>수업</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <body>
+      <h1><a href="ex100.html"><front color = "red">웹프로그래밍수업</a></h1>
+        <input type="button" value="night" onclick="
+        var target = document.querySelector('body');
+          if (this.value === 'night') {
+            target.style.backgroundColor ='gray';
+            target.style.color ='white';
+            this.value ='day';
+          } else {
+              target.style.backgroundColor ='white';
+              target.style.color ='black';
+              this.value ='night';
+            }
+        ">
+        <div id ="grid">
+          <ol>
+            <li><a href="ex200.html">참석자</a></li>
+            <li><a href="ex300.html">날짜</a></li>
+          </ol>
+          <div id ="article">
+            <h2>참석자</h2>
+            </div>
+          </div>
+    </body>
+</html>
